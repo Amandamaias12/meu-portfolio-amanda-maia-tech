@@ -3,65 +3,109 @@
     <head>
         <meta charset="UTF-8"> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" 
+     name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
         <title>Portfólio Amanda Maia Tech</title>
     </head>
-    <body>
-        <nav>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Formações</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Experiências</a></li>
-                <li><a href="#">Contatos</a></li>
-            </ul>
-        </nav>
+            <body>
+        <header>
+            <nav>
+             <ul class="topicos-principais">
+                <a class="top-inicio" href="#">Início</a>
+                <a class="top-form"  href="#">Formações</a>
+                <a class="top-sobre" href="#">Sobre</a>
+                <a class="top-experiencias"  href="#">Experiências</a>
+                <a class="top-contatos" href="#">Contatos</a>
+             </ul>
+            </nav>
+        </header>
         <sextion>
-            <h1>Amanda Maia, <br /> Desenvolvedora Front End</h1>
-            <p> Desenvolvo seu site com agilidade, qualidade e alinhamento com o que você deseja</p>
-            <button>Linkedin</button>
-            <button>GitHub</button>
-            <img src="img/undraw_blooming_re_2kc4.svg"  alt="Para seus sonhos florescerem" />
+           
+
+
+            <a class="imgflores" href="#"img src="img/undraw_blooming_re_2kc4.svg"  alt="Para seus sonhos florescerem" />
+            <li><img< class="logo" src="img/undraw_blooming_re_2kc4.svg"></li>
         </sextion>
 
-        <section>
-            <h2>Minhas formações</h2>
-            <ul> 
-                <li>
-                    <article>
-                        <h3>Desenvolvedora Front End e UI </h3>
-                        <p>Nome da empresa que já trabalhei</p>
-                        <p>Novembro 2024</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <h3>Desenvolvedora Front End e UI </h3>
-                        <p>Nome da empresa que já trabalhei</p>
-                        <p>Novembro 2024</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <h3>Desenvolvedora Front End e UI </h3>
-                        <p>Nome da empresa que já trabalhei</p>
-                        <p>Novembro 2024</p>
-                    </article>
-                </li>
-            </ul>
-        </section>
+        
 
-        <section>
-            <img src="img/fotodeperfil.webp" alt="Minha imagem">
+        <main>
+            <section class="hero-section container-principal" id="inicio"></section>
+            <div class="hero-container"></div>
+            <article class="hero-text"></article>
+            <h1>Amanda Maia, <br /> Desenvolvedora <span>Front-end</span></h1>
+            
+            <article> 
+            <div class="button-group"></div>
+            <a href="#" class="btn-linkedin">Linkedin</a>
+            <a href="#" class="btn-git">GitHub</a>
+        </div>
+    </article>
+
+    
+     </li> 
+     <li> 
+        <article>
+            <h3>Desenvolvedora Front-end</h3>
+            <p>Aprendiz na formação PretaLab </p>
+            <span>Outubro de 2024- Até 12 de dezembro de 2024 </span>
+            
+      
+    </div>
+</section>
+
+<section class="section-formacoes" id="formacoes">
+    <h2>Minhas formações</h2>
+    <ul class="list-formacao">
+        <li class="formacao-item">
             <article>
-                <h2>Sobre mim</h2>
-                <p> Descrição a fazer depois</p>
-                <p>Mais descrição a fazer depois</p>
+                <h3>Formação Pretlab</h3>
+                <p>Empresa Pretalab </p>
+                
             </article>
-        </section>
+            <span class="formacao-data">Setembro 2021- Dezembro 2022 </span>
+        </li>
+        <li class="formacao-item">
+            <article>
+                <h3>Desenvolvedora Front-end</h3>
+                <p>Empresa Unicred </p>
+                <span class="formacao-data">Outubro de 2024 - Dezembro de 2024</span>
+            </article>
+        </li>
+    </ul>
+    </section>
 
-            <section>
-                <h2>Minhas experiências</h2>
+    <section class="sobre-mim-section" id="sobre">
+        <div class="sobre-mim-container">
+            <figure class="sobre-mim-image">
+                <img src="img/fotodeperfil.webp" alt="fotodeperfil">
+            </figure>
+            <article class="sobre-mim-text">
+                <h2>Sobre mim</h2>
+                <p>Sou Amanda Maia, participei da formação PretaLab onde aprendi sobre github, https e css, 
+                    lógica de programação. É um universo novo para mim, o qual quero me dedicar
+                    cada vez mais. Sou acadêmica em Engenharia Agronômica no IFCE e sou Pesquisadora 
+                    IC em Desenvolvimento de bioprodutos com plantas medicinais, além disso, sou aromaterapeuta,
+                    fitoterapeuta e apesar da pausa nesses ofícios, amo-os. Assim como a cosmetologia natural e 
+                    perfumaria botânica. Sou mãe, filha, irmã, egbomi e pretendo avançar mais e mais na área da tecnologia.
+    </p>
+</article>
+<hr  style="border-style: 1px solid #747272;"/>
+</li>  
+</ul>
+<section>
+    <img src="img/undraw_blooming_re_2kc4.svg" alt="florescer">
+
+
+        </section>
+    </div>
+
+    <section class="section-experiencias">
+        <h2>Minhas experiências</h2>
                 <ul> 
                     <li>
                         <article>
@@ -89,23 +133,24 @@
 
 
 
-         <footer>
-            <ul>
-                <li>
-                    <article>
+            <footer id="cabecalho">
+                    <div class="container-rodape">
+
                     
+            
+                            <ul id="contato" class="lista-rodape">
+                                <li><i class="fas fa-envelope-square estilo-icone"></i>amandafricalatina@gmail.com</li>
+
+                                <a class="redes-sociais" href="#" target="_blank"></a>
+                                <i class="fab fa-linkedin estilo-icone"></i>@AmandaMaiaTech
+
+
+                            
                 
-                        <p><i class="fa-regular fa-envelope"></i>  maiasilvaamanda9@gmail.com</i></p>
-                        <p><i class="fa-brands fa-github"></i>  @Amandamaias12</i></p>
-                        <p><i class="fa-brands fa-linkedin"></i>  Amanda Maia Tech</i></p>
-                    </article>    
-                </li>
+                            </ul>
+                    </div>
+                    <p class="direitos">&copy; 2024 Todos os direitos reservados</p>
 
-            </ul>
-
-
-
-            <p>&copy; Todos os direitos reservados</p>
-         </footer>
+            </footer id="cabecalho">
     </body>
 </html>

@@ -1,0 +1,146 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    background-color: aquamarine;
+    width: 100%;
+    overflow-x: hidden
+}
+
+
+h1 {
+    color:green
+}
+
+button {
+    color: green
+}
+
+.button-group{
+    display:flex;
+    gap: 15px;
+    margin top: 100%;
+
+    
+
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 1px salmon;
+    text-decoration:none;
+    color:aliceblue;
+    border-radius: 4px;
+    text-align:center;
+    width: 279px;
+    transition: background-collor 0.3 ease, color 0.3 ease;
+}
+
+.btn.linkedin {
+    background-color: #FF6464
+   
+
+}
+
+.btn.github {
+    background-color: #bd3030;
+}
+
+.imgflores {
+    max-width: 80%;
+    background-color: #FF6464;
+    height: 200px;
+    width: 280px
+    pading:auto
+    
+
+
+}
+
+
+ .sobre-mim-imagem {
+
+   width:200px;
+   border-radius: 50%;
+}
+
+.section-formacoes {
+    padding: 50px 20px;
+    max: width 900px; 
+    margin: 0;
+}
+
+
+.breve-descricao {
+    color:rgb(184, 63, 8)
+}
+.topicos-principais {
+    color:green
+}
+.topico-primeiro {
+    color:rgb(3, 141, 3)
+}
+.topico-segundo {
+    color: rgb(3, 143, 3)
+}
+.topico-terceiro {
+    color: rgb(3, 141, 3)
+}
+.topico-final {
+    color:rgb(194, 48, 11)
+}
+.topico-final-dois {
+    color:rgb(196, 48, 11)
+}
+.topico-final-tres {
+    color: rgb(196, 48, 11)
+}
+.topico-final-quatro {
+    color: rgb(184, 63, 8)
+}
+
+.topico-segundo {
+    font-family: "Quicksand", sans-serif;
+}
+.topico-primeiro {
+    font-family: "Quicksand", sans-serif;
+}
+.topico-terceiro {
+    font-family: "Quicksand", sans-serif;
+
+}
+.topicos-principais {
+    font-family: "Quicksand", sans-serif;
+}
+
+  
+body, nav, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+     
+}
+
+header {
+    background-color: rgb(74, 201, 148);
+    padding: 10px 0; 
+    text-align: right
+    
+}
+
+
+  
+
+.logo {
+    width:40px;
+    height: 30px;
+
+}
